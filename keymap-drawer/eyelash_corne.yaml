@@ -129,7 +129,7 @@ layers:
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
-  - TILDA
+  - '~'
   - {t: /, s: '?'}
   - {t: \, s: '|'}
   - '|'
