@@ -87,8 +87,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '&mkp MB4'
-  - $$mdi:pan-down$$
   - $$mdi:pan-up$$
+  - $$mdi:pan-down$$
   - '&mkp MB5'
   - END
   - PG DN
