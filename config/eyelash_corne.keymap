@@ -78,8 +78,8 @@
             display-name = "NUMBER";
             bindings = <
 &trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                               &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&trans  &kp MINUS        &kp PLUS        &kp EQUAL     &kp UNDER     &kp GRAVE               &mmv MOVE_LEFT  &mkp LCLK    &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp RCTRL   &kp PG_UP
-&trans  &kp BSLH         &kp TILDE       &kp FSLH      &mkp LCLK     &kp PIPE  &none                      &mmv MOVE_DOWN                   &kp LBKT         &kp RBKT         &kp LBRC         &kp RBRC         &kp RSHIFT   &kp PG_DN
+&trans  &kp MINUS        &kp PLUS        &kp EQUAL     &kp UNDER     &kp GRAVE               &mmv MOVE_LEFT  &mkp LCLK    &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &mt RSHIFT HOME   &kp PG_UP
+&trans  &kp BSLH         &kp TILDE       &kp FSLH      &mkp LCLK     &kp PIPE  &none                      &mmv MOVE_DOWN                   &kp LBKT         &kp RBKT         &kp LBRC         &kp RBRC         &mt RCTRL END   &kp PG_DN
                                          &trans        &trans        &trans                                                                &kp INS          &trans          &trans
             >;
 
