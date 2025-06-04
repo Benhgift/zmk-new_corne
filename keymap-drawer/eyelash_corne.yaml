@@ -76,7 +76,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: HOME, h: '$$mdi:apple-keyboard-shift$$'}
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
@@ -90,7 +90,7 @@ layers:
   - {t: ']', s: '}'}
   - '{'
   - '}'
-  - $$mdi:apple-keyboard-shift$$
+  - {t: END, h: '$$mdi:apple-keyboard-control$$'}
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
