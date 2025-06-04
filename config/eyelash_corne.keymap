@@ -78,9 +78,9 @@
             display-name = "NUMBER";
             bindings = <
 &trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                               &mmv MOVE_UP                 &kp N6           &kp N7        &kp N8        &kp N9        &kp N0             &kp BSPC
-&trans  &kp MINUS        &kp PLUS        &kp LBKT      &kp RBKT      &kp BSLH         &mmv MOVE_LEFT  &mkp LCLK    &mmv MOVE_RIGHT     &kp LEFT         &kp DOWN      &kp UP        &kp RIGHT     &mt RSHIFT HOME   &kp PG_UP
-&trans  &kp UNDER        &kp EQUAL       &kp FSLH      &mkp LCLK     &kp PIPE  &none                  &mmv MOVE_DOWN                   &kp GRAVE        &kp LBRC      &kp RBRC      &kp TILDE     &mt RCTRL END     &kp PG_DN
-                                         &trans        &trans        &trans                                                            &kp INS          &trans        &trans
+&trans  &kp LBKT         &kp RBKT        &kp UNDER     &kp MINUS     &kp PLUS         &mmv MOVE_LEFT  &mkp LCLK    &mmv MOVE_RIGHT     &kp LEFT         &kp DOWN      &kp UP        &kp RIGHT     &mt RSHIFT HOME   &kp PG_UP
+&trans  &kp LBRC         &kp RBRC        &kp EQUAL     &mkp LCLK     &kp PIPE  &none                  &mmv MOVE_DOWN                   &kp GRAVE        &kp BSLH      &kp COLON     &kp TILDE     &mt RCTRL END     &kp PG_DN
+                                         &trans        &trans        &trans                                                            &trans           &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -90,9 +90,9 @@
                 display-name = "SYMBOL";
             bindings = <
 &trans  &kp EXCL         &kp AT          &kp HASH      &kp DLLR      &kp PRCNT                        &mmv MOVE_UP                     &kp CARET        &kp AMPS      &kp ASTRK     &kp LPAR      &kp RPAR          &kp BSPC
-&trans  &kp MINUS        &kp PLUS        &kp LBKT      &kp RBKT      &kp BSLH         &mmv MOVE_LEFT  &mkp LCLK    &mmv MOVE_RIGHT     &kp LEFT         &kp DOWN      &kp UP        &kp RIGHT     &mt RSHIFT HOME   &kp PG_UP
-&trans  &kp UNDER        &kp EQUAL       &kp FSLH      &mkp LCLK     &kp PIPE  &none                  &mmv MOVE_DOWN                   &kp GRAVE        &kp LBRC      &kp RBRC      &kp TILDE     &mt RCTRL END     &kp PG_DN
-                                         &trans        &trans        &trans                                                            &kp INS          &trans        &trans
+&trans  &kp LBKT         &kp RBKT        &kp UNDER     &kp MINUS     &kp PLUS         &mmv MOVE_LEFT  &mkp LCLK    &mmv MOVE_RIGHT     &kp LEFT         &kp DOWN      &kp UP        &kp RIGHT     &mt RSHIFT HOME   &kp PG_UP
+&trans  &kp LBRC         &kp RBRC        &kp EQUAL     &mkp LCLK     &kp PIPE  &none                  &mmv MOVE_DOWN                   &kp GRAVE        &kp BSLH      &kp COLON     &kp TILDE     &mt RCTRL END     &kp PG_DN
+                                         &trans        &trans        &trans                                                            &trans           &trans        &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -103,7 +103,7 @@
             bindings = <
 &trans          &kp F1        &kp F2        &kp F3        &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
 &trans          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp DEL  &kp C_VOL_DN  &kp C_VOL_UP   &kp PAUSE_BREAK   &kp PRINTSCREEN  &kp F12
-&trans          &bt BT_CLR    &sys_reset    &bootloader   &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &none            &mmv MOVE_DOWN                    &rgb_ug RGB_EFF  &kp SCROLLLOCK  &bootloader  &sys_reset  &kp HOME   &kp END
+&trans          &bt BT_CLR    &sys_reset    &bootloader   &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &none            &mmv MOVE_DOWN                    &rgb_ug RGB_EFF  &kp SCROLLLOCK  &bootloader  &sys_reset  &kp INS   &kp END
                                             &trans        &trans     &trans                                                                   &trans       &trans     &trans
             >;
 
