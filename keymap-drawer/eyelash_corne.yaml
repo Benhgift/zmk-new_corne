@@ -66,9 +66,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - +
-  - {t: '=', s: +}
-  - _
-  - {t: '`', s: '~'}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: \, s: '|'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -79,17 +79,17 @@ layers:
   - {t: HOME, h: '$$mdi:apple-keyboard-shift$$'}
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: \, s: '|'}
-  - '~'
+  - _
+  - {t: '=', s: +}
   - {t: /, s: '?'}
   - $$mdi:mouse-left-click-outline$$
   - '|'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '`', s: '~'}
   - '{'
   - '}'
+  - '~'
   - {t: END, h: '$$mdi:apple-keyboard-control$$'}
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
@@ -115,9 +115,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - +
-  - {t: '=', s: +}
-  - _
-  - {t: '`', s: '~'}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: \, s: '|'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -128,17 +128,17 @@ layers:
   - {t: HOME, h: '$$mdi:apple-keyboard-shift$$'}
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: \, s: '|'}
-  - '~'
+  - _
+  - {t: '=', s: +}
   - {t: /, s: '?'}
   - $$mdi:mouse-left-click-outline$$
   - '|'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '`', s: '~'}
   - '{'
   - '}'
+  - '~'
   - {t: END, h: '$$mdi:apple-keyboard-control$$'}
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
